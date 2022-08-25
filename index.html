@@ -11,6 +11,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/696e93d3bd.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/alertas.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -26,17 +28,18 @@
                     <div class="searchContainer">
                         <input type="text" class="searchbox">
                         <div class="buttonIcon">
-                            <button type="submit" class="buttonIcona">
+                            <button class="buttonIcona" type="button"  onclick="construccion()">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
+                           
                         </div>
                         
                     </div>
                 </form>
               
-                <div class="iconos">
-                    <img src="/images/iconos/1.jpg" alt="messages" class="messageIcon">
-                    <img src="/images/iconos/2.jpg" alt="cart"  class="cartIcon">
+                <but class="iconos">
+                    <button onclick="construccion()" class="button"><img src="/images/iconos/1.jpg" alt="messages" class="messageIcon"></button>
+                    <button onclick="construccion()" class="button"><img src="/images/iconos/2.jpg" alt="cart"  class="cartIcon"></button>
                 </div>
             </div>
             <hr>
@@ -152,6 +155,7 @@
     </main>
     <script src="/js/sliders.js"></script>
     <script src="/js/mercadoLibre.js"></script>
+
       
 </body>
 </html>

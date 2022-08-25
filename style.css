@@ -178,6 +178,7 @@ hr{
 .categoryTitle{
     font-size: 20px;
     justify-self: center;
+    text-align: center;
     color: #E64B37;
     font-family:  'Nunito', sans-serif;
     
@@ -198,7 +199,6 @@ hr{
     flex-direction: column;
     justify-content: center;
     position: relative;
-    left: -7%;
 }
 .paragraph{
     font-size: 20px;
@@ -382,3 +382,7 @@ hr{
 }
 
 
+.button{
+    border: none;
+    background-color: white;
+}
