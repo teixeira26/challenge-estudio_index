@@ -6,7 +6,8 @@ urls.map((url)=>{
     let price = body.price;
     let originalPrice = body.base_price === price?'':body.base_price
     let infoSeller = await fetch(`https://api.mercadolibre.com/users/${body.seller_id}/shipping_options?zip_code=1754&dimensions=16x16x16,1500`).then(response=>response.json())
-    let entrega = infoSeller.options[1].estimated_delivery_time.pay_before
+    let entrega = infoSeller.options[0].estimated_delivery_time.date
+    console.log(entrega)
     let hoy = new Date()
 
     let entregaEstimada = hoy.toISOString().split('T')[0]=== entrega.split('T')[0]?'hoy':'mañana'
