@@ -289,6 +289,11 @@ hr{
     height: 25vh;
     object-fit:scale-down;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
+    min-width: 250px;
+    max-height: 250px;
+}
+productPhotoContainer{
+    max-height: 250px;
 }
 
 .price{

@@ -21,7 +21,7 @@ urls.map((url, y)=>{
         <div class = 'productsPhotoContainer${y}'>
         ${photo.map((x)=>{
             return `
-            <div class= 'product photo'>
+            <div>
                 <img src=${x.url} alt='producto1' class='productPhoto'>
             </div>
             `
