@@ -37,6 +37,7 @@
     border-radius: 20px;
     border: 1px solid black;
     display: inline;
+    min-width: 37px;
 }
 .buttonIcon{
    
@@ -52,7 +53,7 @@
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    margin: 5px 10px 5px 0;
+    margin: 4px 10px 5px 0;
 }
 i{
     display: flex;
